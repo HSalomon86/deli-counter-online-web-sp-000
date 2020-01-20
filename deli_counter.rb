@@ -3,7 +3,7 @@ def line (array)
 
     when 0
       puts "The line is currently empty."
-    when  1..100
+    when  3..(1.0/0.0)
       arr = []
       array.each_with_index do |x, idx|
         position = idx + 1
