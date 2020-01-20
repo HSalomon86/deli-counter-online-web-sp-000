@@ -11,6 +11,5 @@ def line (array)
       end
         order = arr.join(" ")
         puts "The line is currently: #{order}"
-
     end
 end
